@@ -1,15 +1,7 @@
 # miniguia-estudos-notebooklm
-<div align="center">
-
 # 📚 Miniguia de Estudos: Informática em Saúde & Saúde Digital
 
-![NotebookLM](https://img.shields.io/badge/Made%20with-NotebookLM-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![GitHub](https://img.shields.io/badge/DIO-Desafio%20de%20Projeto-E50914?style=for-the-badge)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-
 > Projeto prático desenvolvido para o Desafio de Projeto da DIO, aplicando **Inteligência Artificial (NotebookLM)** na curadoria, organização e síntese de conhecimento sobre Saúde Digital.
-
-</div>
 
 ---
 
