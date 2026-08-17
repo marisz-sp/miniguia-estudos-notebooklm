@@ -1,23 +1,23 @@
 # miniguia-estudos-notebooklm
-# 📚 Miniguia de Estudos: Informática em Saúde & Saúde Digital
+# Miniguia de Estudos: Informática em Saúde & Saúde Digital
 
 > Projeto prático desenvolvido para o Desafio de Projeto da DIO, aplicando **Inteligência Artificial (NotebookLM)** na curadoria, organização e síntese de conhecimento sobre Saúde Digital.
 
 ---
 
-## 📌 Sumário
-- [🎯 Contexto e Objetivos](#-contexto-e-objetivos)
-- [🔗 Curadoria de Fontes](#-curadoria-de-fontes)
-- [🛠️ Engenharia de Prompts e "Cicatrizes"](#️-engenharia-de-prompts-e-cicatrizes-troubleshooting)
-- [📖 Miniguia de Estudo (Entrega Final)](#-miniguia-de-estudo-entrega-final)
+## Sumário
+- [ Contexto e Objetivos](#-contexto-e-objetivos)
+- [ Curadoria de Fontes](#-curadoria-de-fontes)
+- [ Engenharia de Prompts e "Cicatrizes"](#️-engenharia-de-prompts-e-cicatrizes-troubleshooting)
+- [ Miniguia de Estudo (Entrega Final)](#-miniguia-de-estudo-entrega-final)
   - [1. Resumo Estruturado](#1-resumo-estruturado-diferenciação-no-atendimento-à-distância)
   - [2. Glossário de Conceitos](#2-glossário-de-conceitos-fundamentais)
   - [3. Prompts Reutilizáveis](#3-conjunto-de-prompts-reutilizáveis)
-- [🏁 Conclusão](#-conclusão)
+- [ Conclusão](#-conclusão)
 
 ---
 
-## 🎯 Contexto e Objetivos
+## Contexto e Objetivos
 
 Este repositório documenta a construção de um **Caderno Temático** interativo focado na **Informática em Saúde** e na **Transformação Digital na Medicina**. 
 
@@ -28,39 +28,39 @@ O objetivo principal foi utilizar a IA como uma ferramenta de **aprendizagem ati
 
 ---
 
-## 🔗 Curadoria de Fontes
+## Curadoria de Fontes
 
 Para alimentar o NotebookLM e garantir um aprendizado embasado em materiais de referência, foram selecionadas as seguintes fontes:
 
-1. 📄 **Saúde Digital e Informática em Saúde**: Visão geral dos conceitos fundamentais e impacto na gestão hospitalar.
-2. 📄 **Diretrizes de Telemedicina e Telessaúde**: Documentação sobre regulamentação, monitoramento remoto e consultas digitais.
-3. 📄 **Segurança e Proteção de Dados (LGPD/HIPAA)**: Normas de governança de dados sensíveis e cibersegurança em saúde.
+1. **Saúde Digital e Informática em Saúde**: Visão geral dos conceitos fundamentais e impacto na gestão hospitalar.
+2. **Diretrizes de Telemedicina e Telessaúde**: Documentação sobre regulamentação, monitoramento remoto e consultas digitais.
+3. **Segurança e Proteção de Dados (LGPD/HIPAA)**: Normas de governança de dados sensíveis e cibersegurança em saúde.
 
 ---
 
-## 🛠️ Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
+## Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
 
 Durante o uso da IA, foram realizados experimentos com diferentes abordagens de perguntas para refinar o resultado:
 
-### 🧪 Teste 1: Prompt de Glossário (Visão Geral)
+### Teste 1: Prompt de Glossário (Visão Geral)
 > **Prompt:** *"Crie um glossário com a definição simples dos principais termos técnicos encontrados nas fontes para auxiliar nos estudos."*  
 > **Resultado:** A IA extraiu com precisão 14 termos essenciais (PEP, Interoperabilidade, CDSS, HL7, IoT, Machine Learning, etc.).
 
 ---
 
-### 🧪 Teste 2: Prompt de Comparação (Aprofundado)
+### Teste 2: Prompt de Comparação (Aprofundado)
 > **Prompt:** *"Explique a diferença entre Telessaúde, Telemedicina e Teleconsulta com base nos documentos enviados."*  
 > **Resultado:** A IA gerou uma distinção hierárquica clara (Telessaúde como o "guarda-chuva", Telemedicina como ferramenta de acompanhamento e Teleconsulta como a prestação do serviço).
 
 ---
 
-### 💡 Cicatrizes e Aprendizados (Troubleshooting)
+### Cicatrizes e Aprendizados (Troubleshooting)
 * **Desafio:** Termos como *Telessaúde* e *Telemedicina* frequentemente apareciam misturados ou usados como sinônimos genéricos nas fontes.
 * **Ajuste:** Foi necessário forçar uma estrutura no prompt exigindo uma **diferenciação relacional** (conceito guarda-chuva vs. aplicação prática), eliminando ambiguidades conceituais.
 
 ---
 
-## 📖 Miniguia de Estudo (Entrega Final)
+## Miniguia de Estudo (Entrega Final)
 
 ### 1. Resumo Estruturado: Diferenciação no Atendimento à Distância
 
@@ -93,12 +93,12 @@ Durante o uso da IA, foram realizados experimentos com diferentes abordagens de 
 
 Prompts prontos para serem salvos e reutilizados em revisões futuras:
 
-1. 💬 *"Com base no histórico clínico do paciente, apresente um resumo em tópicos focando apenas em diagnósticos anteriores e medicações em uso."*
-2. 💬 *"Sintetize os principais requisitos de conformidade da LGPD aplicados ao armazenamento de dados no PEP."*
-3. 💬 *"Compare as vantagens da Interoperabilidade de sistemas em relação aos sistemas legados e isolados na gestão hospitalar."*
+1. *"Com base no histórico clínico do paciente, apresente um resumo em tópicos focando apenas em diagnósticos anteriores e medicações em uso."*
+2. *"Sintetize os principais requisitos de conformidade da LGPD aplicados ao armazenamento de dados no PEP."*
+3. *"Compare as vantagens da Interoperabilidade de sistemas em relação aos sistemas legados e isolados na gestão hospitalar."*
 
 ---
 
-## 🏁 Conclusão
+## Conclusão
 
 A elaboração deste Caderno Temático no NotebookLM demonstrou o potencial prático da Inteligência Artificial aplicada à **Informática em Saúde**. Além de facilitar a síntese de conceitos complexos — como interoperabilidade, inteligência artificial e privacidade de dados —, a experiência reforçou a importância da **Engenharia de Prompts**: o alinhamento correto das perguntas é o fator determinante para extrair análises precisas, estruturadas e aplicáveis à rotina da saúde digital.
