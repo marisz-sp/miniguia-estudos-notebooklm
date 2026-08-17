@@ -13,6 +13,7 @@
   - [1. Resumo Estruturado](#1-resumo-estruturado-diferenciação-no-atendimento-à-distância)
   - [2. Glossário de Conceitos](#2-glossário-de-conceitos-fundamentais)
   - [3. Prompts Reutilizáveis](#3-conjunto-de-prompts-reutilizáveis)
+- [🏁 Conclusão](#-conclusão)
 
 ---
 
@@ -95,3 +96,9 @@ Prompts prontos para serem salvos e reutilizados em revisões futuras:
 1. 💬 *"Com base no histórico clínico do paciente, apresente um resumo em tópicos focando apenas em diagnósticos anteriores e medicações em uso."*
 2. 💬 *"Sintetize os principais requisitos de conformidade da LGPD aplicados ao armazenamento de dados no PEP."*
 3. 💬 *"Compare as vantagens da Interoperabilidade de sistemas em relação aos sistemas legados e isolados na gestão hospitalar."*
+
+---
+
+## 🏁 Conclusão
+
+A elaboração deste Caderno Temático no NotebookLM demonstrou o potencial prático da Inteligência Artificial aplicada à **Informática em Saúde**. Além de facilitar a síntese de conceitos complexos — como interoperabilidade, inteligência artificial e privacidade de dados —, a experiência reforçou a importância da **Engenharia de Prompts**: o alinhamento correto das perguntas é o fator determinante para extrair análises precisas, estruturadas e aplicáveis à rotina da saúde digital.
