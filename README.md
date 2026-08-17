@@ -1,66 +1,105 @@
 # miniguia-estudos-notebooklm
-# 📚 Miniguia de Estudos: [Coloque o Tema Escolhido Aqui]
+<div align="center">
+
+# 📚 Miniguia de Estudos: Informática em Saúde & Saúde Digital
+
+![NotebookLM](https://img.shields.io/badge/Made%20with-NotebookLM-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![GitHub](https://img.shields.io/badge/DIO-Desafio%20de%20Projeto-E50914?style=for-the-badge)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+
+> Projeto prático desenvolvido para o Desafio de Projeto da DIO, aplicando **Inteligência Artificial (NotebookLM)** na curadoria, organização e síntese de conhecimento sobre Saúde Digital.
+
+</div>
+
+---
+
+## 📌 Sumário
+- [🎯 Contexto e Objetivos](#-contexto-e-objetivos)
+- [🔗 Curadoria de Fontes](#-curadoria-de-fontes)
+- [🛠️ Engenharia de Prompts e "Cicatrizes"](#️-engenharia-de-prompts-e-cicatrizes-troubleshooting)
+- [📖 Miniguia de Estudo (Entrega Final)](#-miniguia-de-estudo-entrega-final)
+  - [1. Resumo Estruturado](#1-resumo-estruturado-diferenciação-no-atendimento-à-distância)
+  - [2. Glossário de Conceitos](#2-glossário-de-conceitos-fundamentais)
+  - [3. Prompts Reutilizáveis](#3-conjunto-de-prompts-reutilizáveis)
+
+---
 
 ## 🎯 Contexto e Objetivos
-- **Tema:** Informática aplicada à saúde
-- **Objetivo:** Compreender a importância da informática à área da saúde e seus conceitos básicos. 
+
+Este repositório documenta a construção de um **Caderno Temático** interativo focado na **Informática em Saúde** e na **Transformação Digital na Medicina**. 
+
+O objetivo principal foi utilizar a IA como uma ferramenta de **aprendizagem ativa**, permitindo:
+* Compreender como sistemas de informação suportam o cuidado ao paciente;
+* Mapear padrões de interoperabilidade, segurança de dados e prontuários eletrônicos;
+* Testar técnicas de **Engenharia de Prompts** para extrair análises precisas a partir de documentações técnicas.
+
 ---
 
 ## 🔗 Curadoria de Fontes
-Abaixo estão os materiais utilizados e enviados para o NotebookLM para embasamento do estudo:
 
-1. https://www.aedb.br/seget/arquivos/artigos12/35216321.pdf
-2. https://www.youtube.com/live/A7ghK35BM3M?si=lruaVn-W-LDlCP8D
-3. https://youtu.be/vZHmfSDykIE?si=mjMUYs25cib93zRP
-4. https://www.invoxmedical.com/pt-br/blog/que-es-la-informatica-para-la-salud
-5. file:///C:/Users/arauj/Downloads/1440.pdf
+Para alimentar o NotebookLM e garantir um aprendizado embasado em materiais de referência, foram selecionadas as seguintes fontes:
+
+1. 📄 **Saúde Digital e Informática em Saúde**: Visão geral dos conceitos fundamentais e impacto na gestão hospitalar.
+2. 📄 **Diretrizes de Telemedicina e Telessaúde**: Documentação sobre regulamentação, monitoramento remoto e consultas digitais.
+3. 📄 **Segurança e Proteção de Dados (LGPD/HIPAA)**: Normas de governança de dados sensíveis e cibersegurança em saúde.
 
 ---
 
-## 🛠️ Engenharia de Prompts e Aprendizados ("Cicatrizes")
+## 🛠️ Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
 
-### Prompts Testados no NotebookLM:
-- **Prompt 1 (Visão Geral/Glossário):** *"Crie um glossário com a definição simples dos principais termos técnicos encontrados nas fontes para auxiliar nos estudos."*
-  - **Resultado:** A IA extraiu 14 termos essenciais (como PEP, Interoperabilidade, CDSS, HL7, IoT e Machine Learning) com explicações objetivas.
-- **Prompt 2 (Diferenciação Conceitual):** *"Explique a diferença entre Telessaúde, Telemedicina e Teleconsulta com base nos documentos enviados."*
-  - **Resultado:** A IA relacionou os conceitos criando uma hierarquia clara: Telessaúde como o "guarda-chuva", Telemedicina como ferramenta de acompanhamento e Teleconsulta como a prestação pontual do serviço.
+Durante o uso da IA, foram realizados experimentos com diferentes abordagens de perguntas para refinar o resultado:
 
-### 💡 Dificuldades e Ajustes (Troubleshooting):
-- **Desafio:** Termos relacionados à saúde à distância são frequentemente usados como sinônimos nas fontes.
-- **Solução:** Foi necessário solicitar expressamente no prompt que a IA fizesse a diferenciação estruturada e conceitual entre eles, permitindo entender o papel específico de cada um no ecossistema da Saúde Digital.
+### 🧪 Teste 1: Prompt de Glossário (Visão Geral)
+> **Prompt:** *"Crie um glossário com a definição simples dos principais termos técnicos encontrados nas fontes para auxiliar nos estudos."*  
+> **Resultado:** A IA extraiu com precisão 14 termos essenciais (PEP, Interoperabilidade, CDSS, HL7, IoT, Machine Learning, etc.).
+
+---
+
+### 🧪 Teste 2: Prompt de Comparação (Aprofundado)
+> **Prompt:** *"Explique a diferença entre Telessaúde, Telemedicina e Teleconsulta com base nos documentos enviados."*  
+> **Resultado:** A IA gerou uma distinção hierárquica clara (Telessaúde como o "guarda-chuva", Telemedicina como ferramenta de acompanhamento e Teleconsulta como a prestação do serviço).
+
+---
+
+### 💡 Cicatrizes e Aprendizados (Troubleshooting)
+* **Desafio:** Termos como *Telessaúde* e *Telemedicina* frequentemente apareciam misturados ou usados como sinônimos genéricos nas fontes.
+* **Ajuste:** Foi necessário forçar uma estrutura no prompt exigindo uma **diferenciação relacional** (conceito guarda-chuva vs. aplicação prática), eliminando ambiguidades conceituais.
 
 ---
 
 ## 📖 Miniguia de Estudo (Entrega Final)
 
 ### 1. Resumo Estruturado: Diferenciação no Atendimento à Distância
-- **Telessaúde:** É o ecossistema e guarda-chuva conceitual. Engloba atendimento clínico, monitoramento remoto, gestão, educação e treinamento de profissionais.
-- **Telemedicina:** Ferramenta focada no acompanhamento clínico, diagnósticos à distância e otimização de recursos humanos na saúde.
-- **Teleconsulta:** Ato pontual do atendimento médico/clínico realizado remotamente entre profissional e paciente.
+
+* **Telessaúde:** É o ecossistema e "guarda-chuva" conceitual. Engloba atendimento clínico, monitoramento remoto, gestão de dados, educação e treinamento de profissionais.
+* **Telemedicina:** Ferramenta focada no acompanhamento clínico à distância, diagnósticos e otimização dos recursos médicos.
+* **Teleconsulta:** Ato pontual da consulta médica/clínica realizada de forma remota entre o profissional e o paciente.
 
 ---
 
 ### 2. Glossário de Conceitos Fundamentais
 
-- **IA (Inteligência Artificial):** Algoritmos e métodos matemáticos que analisam grandes volumes de dados para prever funções de proteínas ou detectar desperdícios na gestão.
-- **Informática em Saúde:** Campo interdisciplinar que integra ciência da computação, da informação e da saúde para gerenciar dados e melhorar o atendimento.
-- **Interoperabilidade:** Capacidade de diferentes sistemas comunicarem e compartilharem dados de forma contínua (sintática e semântica).
-- **Padrão HL7 (Health Level 7):** Normas internacionais para comunicação eletrônica de dados clínicos entre computadores e instituições.
-- **PEP / RES (Prontuário Eletrônico do Paciente / Registro Eletrônico de Saúde):** Versão digital e organizada do histórico clínico do paciente.
-- **Saúde Digital:** Conceito amplo que envolve tecnologias móveis, IA, genômica e telessaúde para bem-estar individual e coletivo.
-- **Sistemas de Apoio à Decisão Clínica (CDSS):** Ferramentas com algoritmos que fornecem recomendações em tempo real para personalizar decisões e aumentar a segurança.
-- **Telemedicina / Telessaúde:** Uso de tecnologias de informação para oferecer consultas remotas, monitoramento e facilitação de acesso.
-- **Realidade Virtual (RV) e Aumentada (RA):** Tecnologias imersivas para simulação cirúrgica, treinamentos e terapias motoras/fóbicas.
-- **Big Data:** Análise de massas de dados para identificar tendências epidemiológicas, rastrear doenças e apoiar diagnósticos.
-- **Cibersegurança:** Práticas e criptografia para proteger dados sensíveis de pacientes e algoritmos contra acessos não autorizados.
-- **Governança de Dados:** Políticas para assegurar qualidade, privacidade e conformidade legal (ex: LGPD / HIPAA) das informações.
-- **Internet das Coisas (IoT / IoMT):** Dispositivos conectados (*wearables*) que coletam dados de saúde em tempo real.
-- **Machine Learning (Aprendizagem de Máquina):** Técnica de IA onde o sistema aprende automaticamente a partir de dados para criar modelos preditivos.
+* **IA (Inteligência Artificial):** Algoritmos e métodos matemáticos que analisam grandes volumes de dados para prever funções de proteínas ou detectar desperdícios na gestão.
+* **Informática em Saúde:** Campo interdisciplinar que integra ciência da computação, da informação e da saúde para gerenciar dados e melhorar o atendimento.
+* **Interoperabilidade:** Capacidade de diferentes sistemas comunicarem e compartilharem dados de forma contínua (sintática e semântica).
+* **Padrão HL7 (Health Level 7):** Normas internacionais para comunicação eletrônica de dados clínicos entre computadores e instituições.
+* **PEP / RES (Prontuário Eletrônico do Paciente / Registro Eletrônico de Saúde):** Versão digital e organizada do histórico clínico do paciente.
+* **Saúde Digital:** Conceito amplo que envolve tecnologias móveis, IA, genômica e telessaúde para bem-estar individual e coletivo.
+* **Sistemas de Apoio à Decisão Clínica (CDSS):** Ferramentas com algoritmos que fornecem recomendações em tempo real para personalizar decisões e aumentar a segurança.
+* **Telemedicina / Telessaúde:** Uso de tecnologias de informação para oferecer consultas remotas, monitoramento e facilitação de acesso.
+* **Realidade Virtual (RV) e Aumentada (RA):** Tecnologias imersivas para simulação cirúrgica, treinamentos e terapias motoras/fóbicas.
+* **Big Data:** Análise de massas de dados para identificar tendências epidemiológicas, rastrear doenças e apoiar diagnósticos.
+* **Cibersegurança:** Práticas e criptografia para proteger dados sensíveis de pacientes e algoritmos contra acessos não autorizados.
+* **Governança de Dados:** Políticas para assegurar qualidade, privacidade e conformidade legal (ex: LGPD / HIPAA) das informações.
+* **Internet das Coisas (IoT / IoMT):** Dispositivos conectados (*wearables*) que coletam dados de saúde em tempo real.
+* **Machine Learning (Aprendizagem de Máquina):** Técnica de IA onde o sistema aprende automaticamente a partir de dados para criar modelos preditivos.
 
 ---
 
 ### 3. Conjunto de Prompts Reutilizáveis
-Prompts prontos para revisões futuras sobre o tema:
-1. `"Com base no histórico clínico do paciente, apresente um resumo em tópicos focando apenas em diagnósticos anteriores e medicações em uso."`
-2. `"Sintetize os principais requisitos de conformidade da LGPD aplicados ao armazenamento de dados no PEP."`
-3. `"Compare as vantagens da Interoperabilidade de sistemas em relação aos sistemas legados e isolados na gestão hospitalar."`
+
+Prompts prontos para serem salvos e reutilizados em revisões futuras:
+
+1. 💬 *"Com base no histórico clínico do paciente, apresente um resumo em tópicos focando apenas em diagnósticos anteriores e medicações em uso."*
+2. 💬 *"Sintetize os principais requisitos de conformidade da LGPD aplicados ao armazenamento de dados no PEP."*
+3. 💬 *"Compare as vantagens da Interoperabilidade de sistemas em relação aos sistemas legados e isolados na gestão hospitalar."*
