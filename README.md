@@ -1,6 +1,4 @@
 # miniguia-estudos-notebooklm
-# Miniguia de Estudos: Informática em Saúde & Saúde Digital
-
 > Projeto prático desenvolvido para o Desafio de Projeto da DIO, aplicando **Inteligência Artificial (NotebookLM)** na curadoria, organização e síntese de conhecimento sobre Saúde Digital.
 
 ---
